@@ -1,0 +1,629 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+	background-color: #EC715F;
+	height: 70px;
+	width: 100%;
+}
+
+
+nav {
+	background-color: #EC715F;
+	height: 70px;
+	width: 1024px;
+	margin: 0 auto;
+}
+.logo-image{
+	float:left;
+	height:70px;
+}
+
+.nav-list{
+	text-align: right;
+}
+.nav-list-item{
+	font-size: 16px;
+	color: #FAFAFA;
+	list-style: none;
+	line-height: 70px;
+	padding:0 30px;
+	display: inline-block;
+}
+
+
+.main-visual{
+	background-image: url("img/mv.png");
+	background-size: cover;
+	height: 650px;
+	width: 100%;
+}
+
+.headline{
+	padding-top: 200px;
+	font-size: 64px;
+	color: #FAFAFA;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.sub-headline{
+	font-size: 20px;
+	color: #FAFAFA;
+	text-align: center;
+    }
+
+.portfolio-back{
+	background-color: #ECEFF1;
+}
+.portfolio{
+	background-color: #ECEFF1;
+	padding-bottom: 90px;
+	width: 920px;
+	margin: 0 auto;
+}
+
+.portfoio-headline{
+	padding-top: 90px;
+	text-align: center;
+	font-size: 32px;
+	color: #000000;
+}
+.border{
+	width: 70px;
+	height: 8px;
+	border-bottom: 3px solid red;
+	margin: 0 auto;
+}
+.explain-about-portfolio{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.pic-box clearfix{
+    text-align: center;
+}
+.pic-item-a{
+	background-image: url("img/sketch.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 300px;
+	float: left;
+	margin-bottom: 10px;
+}
+.pic-item-b{
+	background-image: url("img/websuku.png");
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 300px;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.pic-item-c{
+	background-image: url("img/write.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 300px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+
+.pic-item-d{
+	background-image: url("img/webcamp.png");
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 300px;
+	float: left;
+}
+
+
+.pic-item-e{
+	background-image: url("img/talk.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 300px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.pic-item-f{
+	background-image: url("img/webcamp-mother.png");
+	background-size: cover;
+    background-position: center;
+	height: 250px;
+	width: 300px;
+	float: left;
+}
+
+.feature{
+	width: 980px;
+	padding-top : 90px;
+	padding-bottom: 90px;
+	margin: 0 auto;
+}
+
+.feature-headline{
+	text-align: center;
+	font-size: 32px;
+	color: #000000;
+}
+.feature-border{
+	text-align: center;
+	width: 70px;
+	height: 8px;
+	border-bottom: 3px solid #EC715F;
+	margin: 0 auto;
+}
+.explain-about-feature{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+}
+
+
+.strength-a{
+	float: left;
+	width: 320px;
+	text-align: center;
+}
+.strength-b{
+	float: left;
+	width: 320px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+.strength-headline{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 20px
+    color: #000000;
+}
+.fab{
+	font-size: 60px;
+}
+
+.explain-about-strength{
+	font-size: 16px;
+	color: #000000;
+}
+
+
+.profile-back{
+	background-color: #ECEFF1;
+}
+.profile{
+	padding-top: 90px;
+	padding-bottom: 90px;
+	width: 1024px;
+	margin: 0 auto;
+}
+.profile-headline{
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+}
+.profile-border{
+	text-align: center;
+	width: 70px;
+	height: 8px;
+	border-bottom: 3px solid #EC715F;
+	margin: 0 auto;
+}
+.explain-about-profile{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.face{
+	float:left;
+	width: 512px;
+	text-align: center;
+}
+.face-image{
+	width: 250px;
+	height: 250px;
+	border-radius: 300px;
+}
+.about-name-skills{
+	float:left;
+	width: 512px;
+}
+.name-headline{
+	font-size: 20px;
+}
+.explain-name{
+	font-size: 16px;
+	color: #000000;
+	margin-top: 5px;
+}
+.my-name{
+	margin-bottom: 20px;
+}
+
+
+.contact{
+	padding-top: 90px;
+	padding-bottom: 90px;
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+.contact-headline{
+	font-size: 32px;
+	color: #000000;
+}
+.contact-border{
+	text-align: center;
+	width: 70px;
+	height: 8px;
+	border-bottom: 3px solid #EC715F;
+	margin: 0 auto;
+}
+.explain-about-contact{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 16px;
+}
+
+
+.address-box{
+	width: 400px;
+	float:left;
+	text-align: center;
+}
+.address-headline{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.address-about{
+	border-bottom: solid;
+	display: inline-block;
+}
+
+.icon-box{
+	width: 400px;
+	float:left;
+}
+.mail{
+	margin-bottom: 20px;
+}
+.icon-headline{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.instagram-logo{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.logo{
+	font-size: 50px;
+}
+footer{
+	background-color: #EC715F;
+	height: 60px;
+}
+.footer-content{
+	color: #FAFAFA;
+	font-size: 16px;
+	text-align: center;
+	line-height: 60px;
+}
+
+
+
+@media screen and (max-width:767px){
+	header{
+		width: 100%;
+		height: 50px;
+	}
+
+	nav{
+		height: 50px;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.logo-image{
+	float:left;
+	height:50px;
+}
+	.nav-list{
+		display: none;
+	}
+
+	.humberger{
+		line-height: 50px;
+		width: 8%;
+		float: right;
+		padding-top: 8px;
+	}
+	.line{
+		height: 6px;
+		background-color: white;
+		margin-bottom: 8px;
+	}
+
+	.main-visual{
+	background-image: url("img/code.png");
+	background-size: cover;
+	height: 650px;
+	width: 100%;
+	text-align: center;
+    }
+    .headline{
+    font-size: 40px;
+	color: #FAFAFA;
+	margin: 0 5% 10px 5%;
+	padding-top: 200px;
+}
+    .sub-headline{
+    font-size: 18px;
+    }
+    .portfolio{
+    	width: 90%;
+    	margin: 0 auto;
+    }
+    .portfoio-headline{
+    	padding-top: 90px;
+    	font-size: 32px;
+    	color: #000000;
+
+    }
+    .border{
+	width: 70px;
+	height: 8px;
+	border-bottom: 3px solid red;
+	margin: 0 auto;
+    }
+    .explain-about-portfolio{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+    }
+    .pic-item-a{
+	background-image: url("img/sketch.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 300px;
+	float: left;
+	margin-bottom: 10px;
+	display: none;
+    }
+    .pic-item-b{
+	background-image: url("img/websuku.png");
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 300px;
+	margin-bottom: 10px;
+	margin: 0 auto 10px auto;
+	float: none;
+    }
+    .pic-item-c{
+	background-image: url("img/write.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 300px;
+	float: left;
+	margin-bottom: 10px;
+	display: none;
+    }
+    .pic-item-d{
+	background-image: url("img/webcamp.png");
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 300px;
+	margin: 0 auto 10px auto;
+	float: none;
+    }
+
+
+    .pic-item-e{
+	background-image: url("img/talk.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	width: 300px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	display: none;
+    }
+
+    .pic-item-f{
+	background-image: url("img/webcamp-mother.png");
+	background-size: cover;
+    background-position: center;
+	height: 250px;
+	width: 300px;
+	margin: 0 auto 0 auto;
+	float: none;
+    }
+
+    .feature{
+    	width: 90%;
+    	margin: 0 auto;
+    }
+
+    .feature-headline{
+    	font-size: 32px;
+    	color: #000000;
+
+    }
+    .border{
+	width: 70px;
+	height: 8px;
+	border-bottom: 3px solid red;
+	margin: 0 auto;
+    }
+    .explain-about-feature{
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+    }
+    .strength-a{
+	float:none;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    }
+    .strength-headline{
+    	padding-top: 10px;
+    	padding-bottom: 10px;
+    	font-size: 20px;
+    	margin: 0 auto;
+    }
+    .strength-b{
+    	float:none;
+    	margin: 0 auto;
+    	padding-bottom: 10px;
+    }
+    .strength-c{
+    	float:none;
+    	margin: 0 auto;
+    	padding-bottom: 90px;
+    }
+
+
+    .profile{
+    	width: 90%;
+    	margin: 0 auto;
+    	padding-bottom: 70px;
+    }
+
+    .profile-headline{
+    	font-size: 32px;
+    	color: #000000;
+
+    }
+    .border{
+	width: 70px;
+	height: 8px;
+	border-bottom: 3px solid red;
+	margin: 0 auto;
+    }
+    .explain-about-profile{
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+    }
+    .face{
+    	float:none;
+    	width: 90%;
+    	margin: 0 auto;
+    }
+    .face-image{
+    float: none;
+    margin: 0 auto 20px auto;
+    }
+    .about-name-skills{
+	float:none;
+	text-align: center;
+	width: 90%;
+	margin:0 auto 0 auto;
+    }
+    .name-headline{
+	font-size: 20px;
+    }
+    .explain-name{
+	font-size: 16px;
+	color: #000000;
+	margin-bottom: 20px;
+    }
+    .my-name{
+	margin: 0 auto;
+    }
+
+
+     .contact{
+    	width: 90%;
+    	margin: 0 auto;
+    }
+
+    .contact-headline{
+    	font-size: 32px;
+    	color: #000000;
+
+    }
+    .border{
+	width: 70px;
+	height: 8px;
+	border-bottom: 3px solid red;
+	margin: 0 auto;
+    }
+    .explain-about-contact{
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+    }
+    .box{
+    width: 90%;
+    margin: 0 auto;
+    }
+    .address-box{
+	width: 90%;
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+    }
+
+    .address-headline{
+	font-size: 20px;
+	margin-bottom: 5px;
+    }
+    .address-about{
+	border-bottom: solid;
+	display: inline-block;
+    }
+    .mail {
+	margin: 0 auto 20px auto;
+    }
+    .about{
+	margin: 0 auto 20px auto;
+    }
+    .icon-box{
+	width: 90%;
+	float: none;
+	margin: 0 auto;
+    }
+    .icon-headline{
+	font-size: 20px;
+	margin-bottom: 5px;
+    }
+
+   .logo{
+   	font-size: 50px;
+   	float: left;
+   	margin: 0 4px 0 4px;
+   }
+
+}
