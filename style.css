@@ -310,11 +310,20 @@ nav {
 	float:left;
 }
 .mail{
-	margin-bottom: 20px;
+  width: 200px;
+	margin:0 auto 20px auto;
+  text-align: left;
+}
+.about{
+  width: 200px;
+  margin: 0 auto;
+  text-align: left;
 }
 .icon-headline{
+  width: 200px;
 	font-size: 20px;
-	margin-bottom: 5px;
+	margin:0 auto 5px auto;
+  text-align: left;
 }
 
 .instagram-logo{
@@ -360,7 +369,9 @@ footer{
 		line-height: 50px;
 		width: 8%;
 		float: right;
-		padding-top: 8px;
+		padding: 8px 3px 0px 3px;
+    border: solid 1px white;
+    border-radius: 2px;
 	}
 	.line{
 		height: 6px;
@@ -487,9 +498,10 @@ footer{
 	margin: 0 auto;
     }
     .explain-about-feature{
-	font-size: 16px;
-	color: #000000;
-	text-align: center;
+    	font-size: 16px;
+    	color: #000000;
+    	text-align: center;
+      word-wrap: break-word;
     }
     .strength-a{
 	float:none;
