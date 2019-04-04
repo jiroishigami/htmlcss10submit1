@@ -367,16 +367,17 @@ footer{
 
 	.humberger{
 		line-height: 50px;
-		width: 8%;
+		width: 50px;
 		float: right;
-		padding: 8px 3px 0px 3px;
+		padding: 10px 3px 2px 3px;
     border: solid 1px white;
-    border-radius: 2px;
+    margin: 1.5px auto 1.5px auto;
 	}
 	.line{
-		height: 6px;
+		height: 3px;
 		background-color: white;
-		margin-bottom: 8px;
+		margin:0px auto 8px auto;
+    width: 30px;
 	}
 
 	.main-visual{
@@ -611,6 +612,7 @@ footer{
     .address-headline{
 	font-size: 20px;
 	margin-bottom: 5px;
+
     }
     .address-about{
 	border-bottom: solid;
@@ -618,9 +620,11 @@ footer{
     }
     .mail {
 	margin: 0 auto 20px auto;
+  text-align: center;
     }
     .about{
 	margin: 0 auto 20px auto;
+  text-align: center;
     }
     .icon-box{
 	width: 90%;
@@ -630,6 +634,7 @@ footer{
     .icon-headline{
 	font-size: 20px;
 	margin-bottom: 5px;
+  text-align: center;
     }
 
    .logo{
